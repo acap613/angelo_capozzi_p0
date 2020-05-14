@@ -30,8 +30,8 @@ public class UserMenu {
 			//look up other user
 			break;
 		case 3:
-			exit = true;
 			System.out.println("Thanks for using HobbyCon, see you next time :)");
+			System.exit(0);
 			break;
 		default:
 			System.out.println("An unknown error occurred");

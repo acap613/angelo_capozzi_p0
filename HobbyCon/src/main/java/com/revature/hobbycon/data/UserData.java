@@ -8,9 +8,7 @@ import com.revature.hobbycon.exceptions.NonLetterCharacterAdded;
 
 //import java.util.Scanner;
 
-public class UserData implements Serializable{
-	
-	
+public class UserData implements Serializable{		
 	/**
 	 * 
 	 */
@@ -18,46 +16,24 @@ public class UserData implements Serializable{
 	/**
 	 * 
 	 */
-	private static Logger log = Logger.getRootLogger();
+	private static Logger log = Logger.getRootLogger();	
 	
 	//user variables	
-	protected String firstName;
-	public String lastName;	
 	protected String userName;	
 	protected int userId;
 	protected String userPW;
 	protected String hobbyName;
-	protected int hobbyID;
+	protected int hobbyID;	
 	
+	public UserData() {
+		userName = "user";
+		userPW = "";
+	}
 	
-	
-	
-	
-	
-	
-	//=======get set first name==========
-		public String getFirstName() {
-			return firstName;
-		}
-		public void setFirstName(String firstName) throws NonLetterCharacterAdded {
-			isALetter(firstName);
-			this.firstName = firstName;
-			try {
-				
-			}catch(IllegalArgumentException e) {
-				log.error("Please use only letters in your name, this isnt a chat room");
-				throw new NonLetterCharacterAdded(e);
-			}
-			
-		}
-		//=========get set last name===============
-		public String getLastName() {
-			return lastName;
-		}
-		public void setLastName(String lastName) {
-			this.lastName = lastName;
-		}
-	
+	public UserData(String userName, String userPW) {
+		this.userName = userName;
+		this.userPW = userPW;
+	}	
 	//============get/set user name=============
 	public String getUserName() {
 		return userName;
@@ -70,8 +46,7 @@ public class UserData implements Serializable{
 		}catch(IllegalArgumentException e) {
 			log.error("Please use only letters in your name, this isnt a chat room");
 			throw new NonLetterCharacterAdded(e);
-		}
-		
+		}		
 	}
 	//============get/set user ID===================
 	public int getUserId() {
