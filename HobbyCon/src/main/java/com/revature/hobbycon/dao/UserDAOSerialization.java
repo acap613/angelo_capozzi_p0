@@ -7,8 +7,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+
 import java.io.PrintStream;
 
 import org.apache.log4j.Logger;
@@ -28,31 +27,15 @@ public class UserDAOSerialization implements UserDAO {
 	
 	public void saveUser(UserData ud) {
 		
-		FileOutputStream fos = null;
-		ObjectOutputStream oos = null;
-		
+	
 		try {
 			absolutePath = userFile.getCanonicalPath() + File.separator + fileName;
-			fos = new FileOutputStream(ud.getUserName());
-			oos = new ObjectOutputStream(fos);
-			oos.writeObject(ud);
 		} catch(FileNotFoundException e) {
 			log.error("Cannot find file" + e);
 			e.printStackTrace();
 		} catch(IOException e) {
 			log.error("Cannot resolve file path" + e);
 			e.printStackTrace();
-		} finally{
-			try {
-				fos.close();
-			} catch(IOException e) {
-				e.printStackTrace();
-		    }
-			try {
-				oos.close();
-			} catch(IOException e) {
-				e.printStackTrace();
-		    }
 		}
 		
 		try {
@@ -71,7 +54,7 @@ public class UserDAOSerialization implements UserDAO {
 	}
 	//=========get user===============================
 	
-	@Override
+
 	public UserData getUser(String userName, String password) {
 		// TODO Auto-generated method stub
 		String fileContents = "";
