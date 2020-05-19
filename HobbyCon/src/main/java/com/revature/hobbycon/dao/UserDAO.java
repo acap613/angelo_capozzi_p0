@@ -6,7 +6,7 @@ public interface UserDAO {
 
 	public void saveUser(UserData ud);
 	
-	public UserData getUser(String userName, String password);
+	public UserData getUser(String userName, String userHobby, String pw);
 	
 	public boolean playerLog(String userName);
 }

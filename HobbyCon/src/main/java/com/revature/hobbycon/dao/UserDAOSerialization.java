@@ -119,6 +119,13 @@ public class UserDAOSerialization implements UserDAO {
 		
 		return false;
 	}
+
+
+	@Override
+	public UserData getUser(String userName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 
 }

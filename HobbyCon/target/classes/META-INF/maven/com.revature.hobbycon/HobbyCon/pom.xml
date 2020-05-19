@@ -33,9 +33,9 @@
 	</dependency>
 	  <!-- https://mvnrepository.com/artifact/org.jasypt/jasypt -->
 	<dependency>
-	    <groupId>org.jasypt</groupId>
-	    <artifactId>jasypt</artifactId>
-	    <version>1.9.3</version>
-	</dependency>
+	    <groupId>org.postgresql</groupId>
+	    <artifactId>postgresql</artifactId>
+	    <version>42.2.12.jre7</version>
+    </dependency>  
   </dependencies>
 </project>

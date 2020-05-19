@@ -1,0 +1,182 @@
+TRACE	2020-05-18 16:31:27,355	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:31:27,436	81	root	[main]	java.sql.SQLException: No suitable driver found for jdbc:postgresql://null:null/null?user=null&password=null
+TRACE	2020-05-18 16:31:27,437	82	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:31:27,438	83	root	[main]	java.sql.SQLException: No suitable driver found for jdbc:postgresql://null:null/null?user=null&password=null
+TRACE	2020-05-18 16:33:44,069	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:33:44,092	23	root	[main]	java.sql.SQLException: No suitable driver found for jdbc:postgresql://null:null/null?user=null&password=null
+TRACE	2020-05-18 16:34:14,831	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:34:14,853	22	root	[main]	java.sql.SQLException: No suitable driver found for jdbc:postgresql://null:null/null?user=null&password=null
+TRACE	2020-05-18 16:34:14,855	24	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:34:14,855	24	root	[main]	java.sql.SQLException: No suitable driver found for jdbc:postgresql://null:null/null?user=null&password=null
+TRACE	2020-05-18 16:35:41,918	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:35:42,095	177	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "null"
+TRACE	2020-05-18 16:35:42,096	178	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:35:42,118	200	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "null"
+TRACE	2020-05-18 16:38:28,024	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:38:28,091	67	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "null"
+TRACE	2020-05-18 16:39:28,539	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:39:28,592	53	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "null"
+TRACE	2020-05-18 16:39:28,593	54	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:39:28,612	73	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "null"
+TRACE	2020-05-18 16:42:46,895	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:42:46,949	54	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+TRACE	2020-05-18 16:42:46,950	55	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:42:46,970	75	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+TRACE	2020-05-18 16:43:52,942	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:43:52,994	52	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "null"
+TRACE	2020-05-18 16:43:52,995	53	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:43:53,014	72	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "null"
+TRACE	2020-05-18 16:44:26,162	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:44:26,185	23	root	[main]	java.sql.SQLException: No suitable driver found for jdbc:postgresql://null:null/null?user=null&password=null
+TRACE	2020-05-18 16:44:26,186	24	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:44:26,186	24	root	[main]	java.sql.SQLException: No suitable driver found for jdbc:postgresql://null:null/null?user=null&password=null
+TRACE	2020-05-18 16:44:32,072	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:44:32,126	54	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "null"
+TRACE	2020-05-18 16:44:32,127	55	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:44:32,145	73	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "null"
+TRACE	2020-05-18 16:45:05,757	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:45:05,808	51	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+TRACE	2020-05-18 16:45:05,809	52	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:45:05,828	71	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+TRACE	2020-05-18 16:45:32,190	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:45:32,257	67	root	[main]	org.postgresql.util.PSQLException: FATAL: database "null:null/null" does not exist
+TRACE	2020-05-18 16:45:32,258	68	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:45:32,279	89	root	[main]	org.postgresql.util.PSQLException: FATAL: database "null:null/null" does not exist
+TRACE	2020-05-18 16:47:27,673	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:47:27,841	168	root	[main]	org.postgresql.util.PSQLException: FATAL: database "angelodb-1.cqen2torelfq.us-east-2.rds.amazonaws.com:5432/acap_c" does not exist
+TRACE	2020-05-18 16:47:27,842	169	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:47:27,861	188	root	[main]	org.postgresql.util.PSQLException: FATAL: database "angelodb-1.cqen2torelfq.us-east-2.rds.amazonaws.com:5432/acap_c" does not exist
+TRACE	2020-05-18 16:48:22,695	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:48:23,198	503	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+TRACE	2020-05-18 16:48:23,200	505	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:48:23,375	680	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+TRACE	2020-05-18 16:48:55,959	1	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:48:56,338	380	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+TRACE	2020-05-18 16:48:56,339	381	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:48:56,534	576	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+TRACE	2020-05-18 16:49:47,037	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:49:47,102	65	root	[main]	org.postgresql.util.PSQLException: FATAL: database "angelodb-1.cqen2torelfq.us-east-2.rds.amazonaws.com:5432/acap_c" does not exist
+TRACE	2020-05-18 16:49:47,104	67	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:49:47,222	185	root	[main]	org.postgresql.util.PSQLException: FATAL: database "angelodb-1.cqen2torelfq.us-east-2.rds.amazonaws.com:5432/acap_c" does not exist
+TRACE	2020-05-18 16:50:41,258	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:50:41,326	68	root	[main]	org.postgresql.util.PSQLException: FATAL: database "angelodb-1.cqen2torelfq.us-east-2.rds.amazonaws.com:5432/sts_en" does not exist
+TRACE	2020-05-18 16:50:41,327	69	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:50:41,347	89	root	[main]	org.postgresql.util.PSQLException: FATAL: database "angelodb-1.cqen2torelfq.us-east-2.rds.amazonaws.com:5432/sts_en" does not exist
+TRACE	2020-05-18 16:51:37,623	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:51:38,057	434	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+TRACE	2020-05-18 16:51:38,058	435	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-05-18 16:51:38,223	600	root	[main]	org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+TRACE	2020-05-18 16:52:02,818	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 16:52:03,255	437	root	[main]	Remote connection successful.
+TRACE	2020-05-18 16:52:03,256	438	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 16:52:03,456	638	root	[main]	Remote connection successful.
+TRACE	2020-05-18 17:55:51,188	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 17:55:51,690	502	root	[main]	Remote connection successful.
+TRACE	2020-05-18 17:55:51,691	503	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 17:55:51,890	702	root	[main]	Remote connection successful.
+TRACE	2020-05-18 17:55:51,891	703	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 17:55:52,106	918	root	[main]	Remote connection successful.
+TRACE	2020-05-18 18:18:10,833	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 18:18:11,288	455	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:40:35,721	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:40:36,203	482	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:40:36,204	483	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:40:36,421	700	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:40:36,422	701	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:40:36,657	936	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:40:55,430	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:40:55,854	424	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:40:55,856	426	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:40:56,078	648	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:40:56,078	648	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:40:56,265	835	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:41:02,180	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:41:02,610	430	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:41:02,612	432	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:41:02,855	675	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:41:02,856	676	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:41:03,070	890	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:41:12,393	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:41:12,798	405	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:41:12,800	407	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:41:13,041	648	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:41:13,041	648	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:41:13,258	865	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:59:40,848	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:59:41,353	505	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:59:41,354	506	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:59:41,579	731	root	[main]	Remote connection successful.
+TRACE	2020-05-18 19:59:41,580	732	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 19:59:41,840	992	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:01:11,936	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:01:12,346	410	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:01:12,347	411	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:01:12,553	617	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:01:12,553	617	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:01:12,751	815	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:03:14,285	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:03:14,690	405	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:03:14,691	406	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:03:14,901	616	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:03:14,902	617	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:03:15,123	838	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:03:34,008	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:03:34,424	416	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:03:34,426	418	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:03:34,633	625	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:03:34,634	626	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:03:34,874	866	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:04:19,139	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:04:19,583	444	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:04:19,584	445	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:04:19,815	676	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:04:19,816	677	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:04:20,030	891	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:04:33,966	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:04:34,386	420	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:04:34,387	421	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:04:34,610	644	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:04:34,610	644	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:04:34,823	857	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:05:09,844	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:05:10,290	446	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:05:10,291	447	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:05:10,585	741	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:05:10,586	742	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:05:10,780	936	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:05:16,993	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:05:17,403	410	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:05:17,404	411	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:05:17,621	628	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:05:17,624	631	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:05:17,836	843	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:05:26,175	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:05:27,087	912	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:05:27,088	913	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:05:27,475	1300	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:05:27,476	1301	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:05:27,691	1516	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:10:58,477	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:10:59,006	529	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:10:59,008	531	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:10:59,225	748	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:10:59,226	749	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:10:59,432	955	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:11:44,288	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:11:44,691	403	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:11:44,693	405	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:11:44,890	602	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:11:44,891	603	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:11:45,084	796	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:18:50,864	1	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:18:51,273	410	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:18:51,274	411	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:18:51,474	611	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:18:51,475	612	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:18:51,680	817	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:19:03,280	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:19:03,680	400	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:19:03,682	402	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:19:03,894	614	root	[main]	Remote connection successful.
+TRACE	2020-05-18 20:19:03,894	614	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-18 20:19:04,092	812	root	[main]	Remote connection successful.

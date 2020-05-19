@@ -30,5 +30,7 @@
 	<classpathentry kind="lib" path="C:/Users/acap6/Documents/Java Libraries/junit-4.13.jar"/>
 	<classpathentry kind="lib" path="C:/Users/acap6/Documents/Java Libraries/mockito-all-1.9.5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/acap6/Documents/Java Libraries/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acap6/Downloads/postgresql-42.2.12.jre7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/acap6/Downloads/postgresql-42.2.9.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

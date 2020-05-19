@@ -3,7 +3,8 @@ package com.revature.hobbycon.menus;
 import java.util.Scanner;
 
 import com.revature.hobbycon.dao.UserDAO;
-import com.revature.hobbycon.dao.UserDAOSerialization;
+import com.revature.hobbycon.dao.UserDAOPostgres;
+
 import com.revature.hobbycon.data.UserData;
 
 
@@ -11,9 +12,10 @@ import com.revature.hobbycon.data.UserData;
 public class LoginMenu {
 //	Menu menu = new Menu();
 	private Scanner scan = new Scanner(System.in);
-	private static UserDAO userDao = new UserDAOSerialization();
+	private static UserDAO userDao = new UserDAOPostgres();
 	private static UserData user = new UserData();
 	private String userName;
+	private String userHobby;
 	protected String userPW;
 	UserMenu um = new UserMenu();
 	public void login() {
@@ -23,7 +25,7 @@ public class LoginMenu {
 		System.out.println("Password??");
 		userPW = scan.nextLine();
 		//check and see if user has an account
-		user = userDao.getUser(userName, userPW);
+		user = userDao.getUser(userName, userHobby);
 		if(user == null) {
 			System.out.println("Record not found, please try again or create an account");
 			
