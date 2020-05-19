@@ -180,3 +180,51 @@ TRACE	2020-05-18 20:19:03,682	402	root	[main]	Getting remote connection with con
 INFO	2020-05-18 20:19:03,894	614	root	[main]	Remote connection successful.
 TRACE	2020-05-18 20:19:03,894	614	root	[main]	Getting remote connection with connection string from environment variables.
 INFO	2020-05-18 20:19:04,092	812	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:19:49,773	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:19:50,237	464	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:19:50,238	465	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:19:50,473	700	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:19:50,474	701	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:19:50,676	903	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:20:03,171	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:20:03,591	420	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:20:03,593	422	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:20:03,814	643	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:20:03,815	644	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:20:04,028	857	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:24:13,308	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:24:13,729	421	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:24:13,730	422	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:24:13,927	619	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:24:13,927	619	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:24:14,124	816	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:24:20,676	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:24:21,075	399	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:24:21,076	400	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:24:21,285	609	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:24:21,286	610	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:24:21,493	817	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:24:33,163	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:24:33,576	413	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:24:33,577	414	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:24:33,782	619	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:24:33,783	620	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:24:33,988	825	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:25:28,975	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:25:29,376	401	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:25:29,377	402	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:25:29,608	633	root	[main]	Remote connection successful.
+TRACE	2020-05-19 09:25:29,609	634	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 09:25:29,832	857	root	[main]	Remote connection successful.
+TRACE	2020-05-19 10:04:29,545	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 10:04:29,970	425	root	[main]	Remote connection successful.
+TRACE	2020-05-19 10:04:45,074	15529	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 10:04:45,319	15774	root	[main]	Remote connection successful.
+TRACE	2020-05-19 10:04:45,319	15774	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 10:04:45,519	15974	root	[main]	Remote connection successful.
+TRACE	2020-05-19 10:28:31,886	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 10:28:32,319	433	root	[main]	Remote connection successful.
+TRACE	2020-05-19 10:28:56,631	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 10:28:57,056	425	root	[main]	Remote connection successful.
+TRACE	2020-05-19 10:28:57,059	428	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 10:28:57,263	632	root	[main]	Remote connection successful.

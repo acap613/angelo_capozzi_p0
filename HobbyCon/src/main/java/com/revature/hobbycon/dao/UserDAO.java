@@ -4,9 +4,11 @@ import com.revature.hobbycon.data.UserData;
 
 public interface UserDAO {
 
-	public void saveUser(UserData ud);
+	public void saveUserName(String userName);
 	
-	public UserData getUser(String userName, String userHobby, String pw);
+	public UserData getUser(String userName, String pw);
 	
 	public boolean playerLog(String userName);
+
+	public void saveUser(UserData user);
 }

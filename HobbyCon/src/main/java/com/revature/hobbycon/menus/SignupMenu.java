@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 import com.revature.hobbycon.app.MenuLogic;
 import com.revature.hobbycon.dao.UserDAO;
-import com.revature.hobbycon.dao.UserDAOSerialization;
+import com.revature.hobbycon.dao.UserDAOPostgres;
+
 import com.revature.hobbycon.data.HobbyData;
 import com.revature.hobbycon.data.UserData;
 
@@ -13,7 +14,7 @@ import com.revature.hobbycon.data.UserData;
 
 	public class SignupMenu extends UserData {	
 		
-		private static UserDAO userDao = new UserDAOSerialization();
+		private static UserDAO userDao = new UserDAOPostgres();
 		private static UserData user = new UserData();
 		private static HobbyData hobbyData = new HobbyData();
 		private Scanner scan = new Scanner(System.in);
@@ -26,7 +27,7 @@ import com.revature.hobbycon.data.UserData;
 			userName = scan.nextLine();
 			System.out.println("Password?");
 			userPW = scan.nextLine();
-			user = new UserData(userName, userPW);
+			user = new UserData(userName, userPW, hobbyName);
 			userDao.saveUser(user);
 			System.out.println("Welcome " + userName + "\nPick a hobby!");
 			

@@ -19,10 +19,10 @@ public class UserData implements Serializable{
 	private static Logger log = Logger.getRootLogger();	
 	
 	//user variables	
-	protected String userName;	
+	public String userName;	
 	protected int userId;
-	protected String userPW;
-	protected String hobbyName;
+	public String userPW;
+	public String hobbyName;
 	protected int hobbyID;	
 	
 	public UserData() {
@@ -30,15 +30,16 @@ public class UserData implements Serializable{
 		userPW = "";
 	}
 	
-	public UserData(String userName, String userPW) {
+	public UserData(String userName, String userPW, String hobbyName) {
 		this.userName = userName;
 		this.userPW = userPW;
+		this.hobbyName = hobbyName;
 	}	
 	//============get/set user name=============
 	public String getUserName() {
 		return userName;
 	}
-	public void setUserName(String userName) throws NonLetterCharacterAdded {
+	public String setUserName(String userName) throws NonLetterCharacterAdded {
 		isALetter(userName);
 		this.userName = userName;
 		try {
@@ -46,7 +47,9 @@ public class UserData implements Serializable{
 		}catch(IllegalArgumentException e) {
 			log.error("Please use only letters in your name, this isnt a chat room");
 			throw new NonLetterCharacterAdded(e);
-		}		
+		}	
+		
+		return null;
 	}
 	//============get/set user ID===================
 	public int getUserId() {
