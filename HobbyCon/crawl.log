@@ -228,3 +228,81 @@ TRACE	2020-05-19 10:28:56,631	0	root	[main]	Getting remote connection with conne
 INFO	2020-05-19 10:28:57,056	425	root	[main]	Remote connection successful.
 TRACE	2020-05-19 10:28:57,059	428	root	[main]	Getting remote connection with connection string from environment variables.
 INFO	2020-05-19 10:28:57,263	632	root	[main]	Remote connection successful.
+TRACE	2020-05-19 17:20:43,188	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 17:20:43,674	486	root	[main]	Remote connection successful.
+TRACE	2020-05-19 17:20:56,869	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 17:20:57,328	459	root	[main]	Remote connection successful.
+TRACE	2020-05-19 17:21:17,117	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 17:21:17,570	453	root	[main]	Remote connection successful.
+TRACE	2020-05-19 17:21:30,461	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 17:21:30,939	478	root	[main]	Remote connection successful.
+TRACE	2020-05-19 17:22:31,652	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 17:22:32,174	522	root	[main]	Remote connection successful.
+TRACE	2020-05-19 17:22:32,177	525	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 17:22:32,383	731	root	[main]	Remote connection successful.
+TRACE	2020-05-19 18:23:59,444	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 18:23:59,892	448	root	[main]	Remote connection successful.
+TRACE	2020-05-19 18:23:59,896	452	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 18:24:00,112	668	root	[main]	Remote connection successful.
+TRACE	2020-05-19 18:29:01,873	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 18:29:02,463	590	root	[main]	Remote connection successful.
+TRACE	2020-05-19 18:33:10,297	1	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 18:33:10,749	453	root	[main]	Remote connection successful.
+TRACE	2020-05-19 18:34:12,462	62166	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 18:34:12,678	62382	root	[main]	Remote connection successful.
+TRACE	2020-05-19 21:57:53,857	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 21:57:54,422	565	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:43:02,845	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:43:03,320	475	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:43:12,113	9268	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:43:12,303	9458	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:43:18,697	15852	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:43:18,911	16066	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:43:36,273	33428	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:43:36,466	33621	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:44:07,632	64787	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:44:07,832	64987	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:44:18,193	75348	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:44:18,398	75553	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:45:19,297	136452	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:45:19,626	136781	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:45:27,770	144925	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:45:27,959	145114	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:47:27,685	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:47:28,173	488	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:47:34,169	6484	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:47:34,372	6687	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:48:19,697	52012	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:48:19,908	52223	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:48:31,457	63772	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:48:31,723	64038	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:50:05,937	158252	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:50:06,137	158452	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:50:13,425	165740	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:50:13,640	165955	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:55:03,661	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:55:04,089	428	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:55:11,873	8212	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:55:12,066	8405	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:55:46,679	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:55:47,123	444	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:55:55,937	9258	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:55:56,137	9458	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:57:09,349	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:57:09,810	461	root	[main]	Remote connection successful.
+TRACE	2020-05-19 23:57:21,633	12284	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-19 23:57:21,835	12486	root	[main]	Remote connection successful.
+TRACE	2020-05-20 05:55:08,435	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-20 05:55:08,941	506	root	[main]	Remote connection successful.
+TRACE	2020-05-20 05:55:18,564	10129	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-20 05:55:18,797	10362	root	[main]	Remote connection successful.
+TRACE	2020-05-20 05:56:22,575	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-20 05:56:23,015	440	root	[main]	Remote connection successful.
+TRACE	2020-05-20 05:56:34,787	12212	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-20 05:56:34,973	12398	root	[main]	Remote connection successful.
+TRACE	2020-05-20 05:57:02,087	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-20 05:57:02,538	451	root	[main]	Remote connection successful.
+TRACE	2020-05-20 05:58:30,608	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-20 05:58:31,118	510	root	[main]	Remote connection successful.
+TRACE	2020-05-20 06:26:55,958	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-20 06:26:56,481	523	root	[main]	Remote connection successful.

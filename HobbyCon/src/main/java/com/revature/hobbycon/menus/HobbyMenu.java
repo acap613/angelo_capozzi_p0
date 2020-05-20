@@ -1,14 +1,14 @@
-package com.revature.hobbycon.data;
+package com.revature.hobbycon.menus;
 
 import java.util.Scanner;
 
-import com.revature.hobbycon.menus.LoginMenu;
-import com.revature.hobbycon.menus.UserMenu;
+import com.revature.hobbycon.data.HobbyData;
 
-public class HobbyData {
+public class HobbyMenu {
 	boolean exit;
 	//LoginMenu lm = new LoginMenu();
-	UserMenu um = new UserMenu();
+	private static HobbyData hd= new HobbyData();
+	//UserMenu um = new UserMenu();
 	public void runHobbyList() {
 		while(!exit) {
 			printHobbyList();
@@ -16,7 +16,7 @@ public class HobbyData {
 			hobbyList(choice);
 			System.out.println("Welcome to HobbyCon!\n");
 			//lm.login();
-			um.runUserMenu();
+			//um.runUserMenu();
 		}
 	}
 	
@@ -24,7 +24,7 @@ public class HobbyData {
 		switch(hob) {
 		case 1:
 			System.out.println("You chose Sports!");
-			
+			//hd.setHobbyAs();
 			break;
 		case 2:
 			System.out.println("You chose Movies!");
@@ -74,5 +74,4 @@ public class HobbyData {
 		
 		return choice;
 	}
-
 }

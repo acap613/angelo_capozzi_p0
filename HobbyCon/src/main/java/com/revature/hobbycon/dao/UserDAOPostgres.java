@@ -5,6 +5,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import org.apache.log4j.Logger;
+
 import com.revature.hobbycon.app.ConnectionFactory;
 import com.revature.hobbycon.connection.JDBCConnection;
 import com.revature.hobbycon.data.UserData;
@@ -18,12 +20,37 @@ public class UserDAOPostgres implements UserDAO {
 	private static final String SAVE_USER_NAME = "select * from user_hobbies where user_hobby_group = ? ";
 	private static final String GET_USER_NAME = "select * from userprofile where userprofile_name = ? ";
 	private static final String GET_USER_PASSWORD = "select * from userprofile where userprofile_password = ? ";
-	private Connection conn = JDBCConnection.getRemoteConnection();
-	
+	private static final String CREATE_NEW_USER = "insert into userprofile (userprofile_name, userprofile_password, userprfile_hobby) values(?,?,?)";
+	private static final String GET_USER_INFO = "select userprofile_name, userprofile_hobbies from userprofile u where u.userprofile_name = ? and u.userprofile_password = ?";
+	private static Logger log = Logger.getRootLogger();
 	@Override
 	
 	
-	public void saveUserName(String userName) {		
+	public void createNewUser(UserData nu) {
+		Connection conn = JDBCConnection.getRemoteConnection();
+		PreparedStatement pstmt;
+		try {
+			pstmt = conn.prepareStatement(CREATE_NEW_USER);
+			pstmt.setString(1, nu.getUserName());
+			pstmt.setString(2, nu.getUserPW());
+			pstmt.setString(3, nu.getHobbyName());
+			
+			pstmt.executeUpdate();
+		} catch(SQLException e) {
+			log.error("UserDAOPostgres:createNewUser: failed to create new user");
+			
+			e.printStackTrace();
+		} finally{
+			try {
+				conn.close();
+			}catch(SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public void saveUserName(String userName) {	
+		Connection conn = JDBCConnection.getRemoteConnection();
 		UserData user = new UserData();
 		PreparedStatement pstmt;
 		
@@ -43,16 +70,16 @@ public class UserDAOPostgres implements UserDAO {
 		
 	}
 
-	public UserData getUser(String userName, String pw) {
+	public UserData getUser(String userName, String userPW) {
+		Connection conn = JDBCConnection.getRemoteConnection();
 		PreparedStatement pstmt;
 		UserData user = new UserData();
 		try {
-			pstmt = conn.prepareStatement(GET_USER_NAME);
-			pstmt = conn.prepareStatement(GET_HOBBY_GROUP);
-			pstmt = conn.prepareStatement(GET_USER_PASSWORD);
+			pstmt = conn.prepareStatement(GET_USER_INFO);
+		
 			pstmt.setString(1, userName);
-			//pstmt.setString(1, userHobby);
-			pstmt.setString(1, pw);
+			pstmt.setString(2, userPW);
+			//pstmt.setString(3, pw);
 			
 			
 			ResultSet res = pstmt.executeQuery();
@@ -60,11 +87,10 @@ public class UserDAOPostgres implements UserDAO {
 			if(res.next()) {
 				user.setUserName(res.getString("userprofile_name"));
 				//user.setHobbyName(res.getString("userprofile_hobbies"));
-				user.setUserPW(res.getString("userprofile_password"));
+				user.setHobbyName(res.getString("userprofile_hobbies"));
 				System.out.println("Name: " + userName);
 				//System.out.println("Hobby: " + userHobby);
-				System.out.println("Secret code: " + pw);
-				
+				//System.out.println("Fav hobby: " + userHobby);
 			} else {
 				System.out.println("User name/password incorrect. Please check your records");
 			}
@@ -75,12 +101,13 @@ public class UserDAOPostgres implements UserDAO {
 			e.printStackTrace();
 		}
 			finally {
-			try {
-				conn.close();
-			} catch(SQLException e) {
-				e.printStackTrace();
+		try {
+			conn.close();
+		} catch(SQLException e) {
+			e.printStackTrace();
 			}
 		}
+		
 
 		
 		return null;

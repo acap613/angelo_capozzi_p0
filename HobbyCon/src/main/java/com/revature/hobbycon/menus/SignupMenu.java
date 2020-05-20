@@ -16,11 +16,11 @@ import com.revature.hobbycon.data.UserData;
 		
 		private static UserDAO userDao = new UserDAOPostgres();
 		private static UserData user = new UserData();
-		private static HobbyData hobbyData = new HobbyData();
+		
 		private Scanner scan = new Scanner(System.in);
 		private static final long serialVersionUID = 1L;
         //LoginMenu lm = new LoginMenu();
-	    HobbyData hd = new HobbyData();
+	    HobbyMenu hm = new HobbyMenu();
 		public void signup() {
 			System.out.println("Signup Menu");
 			System.out.println("\nUser Name?");
@@ -31,7 +31,7 @@ import com.revature.hobbycon.data.UserData;
 			userDao.saveUser(user);
 			System.out.println("Welcome " + userName + "\nPick a hobby!");
 			
-			hd.runHobbyList();
+			hm.runHobbyList();
 			
 			
 			

@@ -17,7 +17,7 @@ import com.revature.hobbycon.data.UserData;
 public class ConnectionTest {
 
 	UserDAOPostgres udp = new UserDAOPostgres();
-	UserData user = new UserData();
+	private static UserData user; 
 	private static final String NEW_NAME = "Pepper";
 	private static final String NEW_PW = "iloveliver";
 	private static final String NEW_HOBBY = "art";
@@ -25,9 +25,11 @@ public class ConnectionTest {
 	String input = scan.nextLine();
 	@Before
 	public void setup() {
+		user = new UserData();
 		user.userName = NEW_NAME;
 		user.userPW = NEW_PW;
 		user.hobbyName = NEW_HOBBY;
+		
 	}
 	@Test
 	public void test() {
@@ -36,13 +38,14 @@ public class ConnectionTest {
 	}
 	@Test
 	public void getUserTest() {
-		udp.getUser("Ben", "DemBonez");
-		user.getHobbyName();
+		udp.getUser("Steve", "Sports");
+//		udp.getHobbyName();
 		
 	} 
 	@Test
 	public void setNewUser() {
-		udp.saveUserName(input);
+		user.getUserInfo();
+		//udp.createNewUser();
 	}
 
 }

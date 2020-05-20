@@ -1,6 +1,6 @@
 package com.revature.hobbycon.data;
 
-import java.io.Serializable;
+//import java.io.Serializable;
 
 import org.apache.log4j.Logger;
 
@@ -8,23 +8,18 @@ import com.revature.hobbycon.exceptions.NonLetterCharacterAdded;
 
 //import java.util.Scanner;
 
-public class UserData implements Serializable{		
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1268233957836567201L;
-	/**
-	 * 
-	 */
+public class UserData {		
+	
 	private static Logger log = Logger.getRootLogger();	
 	
 	//user variables	
+	
 	public String userName;	
 	protected int userId;
 	public String userPW;
 	public String hobbyName;
 	protected int hobbyID;	
-	
+	public String userInfo;
 	public UserData() {
 		userName = "user";
 		userPW = "";
@@ -35,6 +30,13 @@ public class UserData implements Serializable{
 		this.userPW = userPW;
 		this.hobbyName = hobbyName;
 	}	
+	
+	
+	public String getUserInfo() {
+		return userName + userPW + hobbyName;
+	}
+	
+	
 	//============get/set user name=============
 	public String getUserName() {
 		return userName;

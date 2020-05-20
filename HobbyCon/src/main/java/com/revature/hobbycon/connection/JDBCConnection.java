@@ -18,10 +18,10 @@ public class JDBCConnection {
 	private static String port;
 	
 	public static Connection getRemoteConnection() {
-		System.out.println("Running");
+		//System.out.println("Running");
 	   
 	      try {
-	      System.out.println("Connecting...");
+	      //System.out.println("Connecting...");
 	      Class.forName("org.postgresql.Driver");
 	      dbName = System.getenv("HOBBY_CON_DBNAME");
 	      username = System.getenv("HOBBY_CON_USERNAME");
@@ -29,10 +29,10 @@ public class JDBCConnection {
 	      hostname = System.getenv("HOBBY_CON_URL");
 	      port = System.getenv("HOBBY_CON_PORT");
 	      String jdbcUrl = "jdbc:postgresql://" + hostname + ":" + port + "/" + dbName + "?user=" + username + "&password=" + password;
-	      logger.trace("Getting remote connection with connection string from environment variables.");
+	      //logger.trace("Getting remote connection with connection string from environment variables.");
 	      Connection con = DriverManager.getConnection(jdbcUrl);
-	      logger.info("Remote connection successful.");
-	      System.out.println("Connected!");
+	      //logger.info("Remote connection successful.");
+	      //System.out.println("Connected!");
 	     
 	      return con;
 	    } catch (ClassNotFoundException e) { 
