@@ -20,9 +20,21 @@ public class UserData {
 	public String hobbyName;
 	protected int hobbyID;	
 	public String userInfo;
+	
 	public UserData() {
-		userName = "user";
-		userPW = "";
+		
+	}
+	
+	public UserData(String userName) {
+		this.userName = userName;
+		
+		
+	}
+	
+	public UserData(String userName, String hobbyName) {
+		this.userName = userName;
+		
+		this.hobbyName = hobbyName;
 	}
 	
 	public UserData(String userName, String userPW, String hobbyName) {

@@ -15,17 +15,17 @@ public class LoginMenu extends UserData {
 /**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
+	//private static final long serialVersionUID = 1L;
 //	Menu menu = new Menu();
 	private Scanner scan = new Scanner(System.in);
-	private static UserDAO userDao = new UserDAOPostgres();
+	private static UserDAOPostgres userDao = new UserDAOPostgres();
 	private static UserData user = new UserData();
 	private String userName;
 	private String userHobby;
 	protected String userPW;
 	UserMenu um = new UserMenu();
 	public void login() {
-		//Connection conn = JDBCConnection.getRemoteConnection();
+		Connection conn = JDBCConnection.getRemoteConnection();
 		System.out.println("Login Menu");
 		System.out.println("User Name?");
 		user.userName = scan.nextLine();
@@ -35,7 +35,7 @@ public class LoginMenu extends UserData {
 		user = userDao.getUser(userName, userPW);
 		if(user == null) {
 			System.out.println("Record not found, please try again or create an account");
-			
+			return;
 		} else {
 		System.out.println("================================================");
 		System.out.println("|    Welcome " + userName + " to HobbyCon      |");	

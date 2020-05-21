@@ -3,21 +3,36 @@ package com.revature.hobbycon.menus;
 import java.util.Scanner;
 
 import com.revature.hobbycon.data.HobbyData;
+import com.revature.hobbycon.data.UserData;
 
 public class HobbyMenu {
 	boolean exit;
 	//LoginMenu lm = new LoginMenu();
-	private static HobbyData hd= new HobbyData();
-	//UserMenu um = new UserMenu();
+	private static HobbyData hd = new HobbyData();
+	private UserData ud;
+	private UserMenu um;
+	public void runHobbyList(UserData ud) {
+		this.ud = ud;
+		this.um = new UserMenu();
+		runMenuOpt();
+	}
 	public void runHobbyList() {
+		this.um = new UserMenu();
+		runMenuOpt();
+	}
+	
+
+	public void runMenuOpt() {
 		while(!exit) {
 			printHobbyList();
 			int choice = getInput();
 			hobbyList(choice);
 			System.out.println("Welcome to HobbyCon!\n");
 			//lm.login();
-			//um.runUserMenu();
-		}
+			
+			this.um.runUserMenu(ud);
+
+	   }
 	}
 	
 	public void hobbyList(int hob) {

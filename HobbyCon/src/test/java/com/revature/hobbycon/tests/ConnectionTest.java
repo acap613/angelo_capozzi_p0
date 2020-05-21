@@ -21,8 +21,11 @@ public class ConnectionTest {
 	private static final String NEW_NAME = "Pepper";
 	private static final String NEW_PW = "iloveliver";
 	private static final String NEW_HOBBY = "art";
-	Scanner scan = new Scanner(System.in);
-	String input = scan.nextLine();
+//	Scanner scan = new Scanner(System.in);
+//	String input = scan.nextLine();
+	
+	
+	
 	@Before
 	public void setup() {
 		user = new UserData();
@@ -30,22 +33,27 @@ public class ConnectionTest {
 		user.userPW = NEW_PW;
 		user.hobbyName = NEW_HOBBY;
 		
+		
+		
 	}
 	@Test
 	public void test() {
 		//ConnectionFactory.getConnection();
+		System.out.println("test1");
 		JDBCConnection.getRemoteConnection();
-	}
-	@Test
-	public void getUserTest() {
-		udp.getUser("Steve", "Sports");
-//		udp.getHobbyName();
 		
-	} 
+	}
+//	@Test
+//	public void getUserTest() {
+//		udp.getUser("Steve", "Sports");
+////		udp.getHobbyName();
+//		
+//	} 
 	@Test
 	public void setNewUser() {
-		user.getUserInfo();
-		//udp.createNewUser();
+		//user.getUserInfo();	
+		System.out.println("checkin for test runs");
+		udp.createNewUser(user);
 	}
 
 }

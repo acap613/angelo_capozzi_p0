@@ -17,10 +17,10 @@ public class UserDAOPostgres implements UserDAO {
 	
 	private static final String SAVE_HOBBY_GROUP = "update user set user_hobby_group =-? where user_profile_name = ? ";
 	private static final String GET_HOBBY_GROUP = "select * from userprofile where userprofile_hobbies = ? ";
-	private static final String SAVE_USER_NAME = "select * from user_hobbies where user_hobby_group = ? ";
+	private static final String SAVE_USER_NAME = "insert into userprofile set userprofile_name = ? ";
 	private static final String GET_USER_NAME = "select * from userprofile where userprofile_name = ? ";
 	private static final String GET_USER_PASSWORD = "select * from userprofile where userprofile_password = ? ";
-	private static final String CREATE_NEW_USER = "insert into userprofile (userprofile_name, userprofile_password, userprfile_hobby) values(?,?,?)";
+	private static final String CREATE_NEW_USER = "insert into userprofile (userprofile_name, userprofile_password) values(?,?)";
 	private static final String GET_USER_INFO = "select userprofile_name, userprofile_hobbies from userprofile u where u.userprofile_name = ? and u.userprofile_password = ?";
 	private static Logger log = Logger.getRootLogger();
 	@Override
@@ -33,7 +33,7 @@ public class UserDAOPostgres implements UserDAO {
 			pstmt = conn.prepareStatement(CREATE_NEW_USER);
 			pstmt.setString(1, nu.getUserName());
 			pstmt.setString(2, nu.getUserPW());
-			pstmt.setString(3, nu.getHobbyName());
+			//pstmt.setString(3, nu.getHobbyName());
 			
 			pstmt.executeUpdate();
 		} catch(SQLException e) {
