@@ -43,12 +43,12 @@ public class ConnectionTest {
 		JDBCConnection.getRemoteConnection();
 		
 	}
-//	@Test
-//	public void getUserTest() {
-//		udp.getUser("Steve", "Sports");
-////		udp.getHobbyName();
-//		
-//	} 
+	@Test
+	public void getUserTest() {
+		udp.getUser(null, null);
+		
+		
+	} 
 	@Test
 	public void setNewUser() {
 		//user.getUserInfo();	

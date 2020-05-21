@@ -21,7 +21,7 @@ public class UserDAOPostgres implements UserDAO {
 	private static final String GET_USER_NAME = "select * from userprofile where userprofile_name = ? ";
 	private static final String GET_USER_PASSWORD = "select * from userprofile where userprofile_password = ? ";
 	private static final String CREATE_NEW_USER = "insert into userprofile (userprofile_name, userprofile_password) values(?,?)";
-	private static final String GET_USER_INFO = "select userprofile_name, userprofile_hobbies from userprofile u where u.userprofile_name = ? and u.userprofile_password = ?";
+	private static final String GET_USER_INFO = "select * from userprofile u where u.userprofile_name = ? and u.userprofile_password = ?";
 	private static Logger log = Logger.getRootLogger();
 	@Override
 	
@@ -73,44 +73,40 @@ public class UserDAOPostgres implements UserDAO {
 	public UserData getUser(String userName, String userPW) {
 		Connection conn = JDBCConnection.getRemoteConnection();
 		PreparedStatement pstmt;
-		UserData user = new UserData();
+		UserData user = null;
 		try {
-			pstmt = conn.prepareStatement(GET_USER_INFO);
-		
+			user = new UserData();
+			pstmt = conn.prepareStatement(GET_USER_INFO);		
 			pstmt.setString(1, userName);
-			pstmt.setString(2, userPW);
-			//pstmt.setString(3, pw);
-			
+			pstmt.setString(2, userPW);			
 			
 			ResultSet res = pstmt.executeQuery();
 			
 			if(res.next()) {
 				user.setUserName(res.getString("userprofile_name"));
-				//user.setHobbyName(res.getString("userprofile_hobbies"));
-				user.setHobbyName(res.getString("userprofile_hobbies"));
-				System.out.println("Name: " + userName);
-				//System.out.println("Hobby: " + userHobby);
-				//System.out.println("Fav hobby: " + userHobby);
-			} else {
-				System.out.println("User name/password incorrect. Please check your records");
-			}
+				user.setUserPW(res.getString("userprofile_password"));
+				System.out.println("user name = " + user.getUserName() + user.getUserPW());
+			} 
 		} catch (SQLException e) {
 			e.printStackTrace();
+			return null;
 		}  catch (NonLetterCharacterAdded e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			return null;
 		}
 			finally {
 		try {
 			conn.close();
 		} catch(SQLException e) {
 			e.printStackTrace();
+			return null;
 			}
 		}
 		
-
 		
-		return null;
+		
+		return user;
 	}
 
 	@Override
