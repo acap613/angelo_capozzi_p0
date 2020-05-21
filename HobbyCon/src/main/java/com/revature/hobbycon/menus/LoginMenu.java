@@ -41,7 +41,7 @@ public class LoginMenu extends UserData {
 		System.out.println("|    Welcome " + userName + " to HobbyCon      |");	
 		System.out.println("================================================\n");
 		
-		um.runUserMenu();
+		um.runUserMenu(um);
 		}
 	}
 }

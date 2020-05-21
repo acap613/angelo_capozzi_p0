@@ -16,7 +16,7 @@ public class HobbyData {
 			hobbyList(choice);
 			System.out.println("Welcome to HobbyCon!\n");
 			//lm.login();
-			um.runUserMenu();
+			um.runUserMenu(um);
 		}
 	}
 	

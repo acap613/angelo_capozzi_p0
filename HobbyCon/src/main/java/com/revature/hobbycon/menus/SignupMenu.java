@@ -43,7 +43,7 @@ import com.revature.hobbycon.exceptions.NonLetterCharacterAdded;
 				
 			
 			
-			userDao.saveUser(user);
+			userDao.createNewUser(user);
 			String name = user.getUserName();
 			System.out.println("Welcome " + name + "\nPick a hobby!");
 			//user = new UserData(userName, userPW, hobbyName);
