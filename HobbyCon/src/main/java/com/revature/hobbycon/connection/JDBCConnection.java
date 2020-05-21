@@ -18,7 +18,7 @@ public class JDBCConnection {
 	private static String port;
 	
 	public static Connection getRemoteConnection() {
-		System.out.println("Running");
+		//System.out.println("Running");
 	   
 	      try {
 	      System.out.println("Connecting...");
