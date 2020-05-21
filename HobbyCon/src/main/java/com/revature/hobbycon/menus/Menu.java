@@ -39,7 +39,7 @@ public class Menu {
 					break;
 				case 3:
 					exit = 'y';
-					System.out.println("Thanks for using HobbyCon, see you next time :)");
+					System.out.println("Thanks for using HobbyConn, see you next time :)");
 					break;
 				default:
 					System.out.println("An unknown error occurred");
@@ -54,7 +54,7 @@ public class Menu {
 	private void printWelcome() {
 		
 		System.out.println("================================================");
-		System.out.println("|             Welcome to HobbyCon              |");
+		System.out.println("|            Welcome to HobbyConn              |");
 		System.out.println("|          Where Hobbyists Connect!            |");
 		System.out.println("================================================\n");
 		

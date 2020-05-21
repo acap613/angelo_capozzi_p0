@@ -25,7 +25,7 @@ public class GroupMenu {
 	public void runHobbyGroup() {
 		System.out.println("+-------------------------+");
 		System.out.println("|                         |");
-		System.out.println("|=====HobbyCon Members====|");                       
+		System.out.println("|=====HobbyConn Members====|");                       
 		System.out.println("|                         |");
 		System.out.println("+-------------------------+");
 		

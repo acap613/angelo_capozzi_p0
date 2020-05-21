@@ -3,6 +3,7 @@ package com.revature.hobbycon.menus;
 import java.util.Scanner;
 
 import com.revature.hobbycon.app.MenuLogic;
+
 import com.revature.hobbycon.data.UserData;
 
 public class UserMenu extends UserData {
@@ -13,10 +14,13 @@ public class UserMenu extends UserData {
 	GroupMenu hg = new GroupMenu();
 	public void runUserMenu(UserData ud) {
 //		 user = new UserData();
+		
 //		String name = user.getUserName();
 //		//call username from database,
 		this.userName = ud.getUserName();
+		this.hobbyName = ud.getHobbyName();
 		System.out.println("Your name: " + userName);
+		System.out.println("Your hobby: " + hobbyName);
 		//ystem.out.println("Your name: " + user.userName);
 		
 		
@@ -45,7 +49,7 @@ public class UserMenu extends UserData {
 			gm.runGroupMenu();
 			break;
 		case 3:
-			System.out.println("Thanks for using HobbyCon, see you next time :)");
+			System.out.println("Thanks for using HobbyConn, see you next time :)");
 			System.exit(0);
 			break;
 		default:

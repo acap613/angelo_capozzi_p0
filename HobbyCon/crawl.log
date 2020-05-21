@@ -455,3 +455,56 @@ TRACE	2020-05-20 22:53:41,035	0	root	[main]	Getting remote connection with conne
 INFO	2020-05-20 22:53:41,495	460	root	[main]	Remote connection successful.
 TRACE	2020-05-20 22:53:58,334	17299	root	[main]	Getting remote connection with connection string from environment variables.
 INFO	2020-05-20 22:53:58,522	17487	root	[main]	Remote connection successful.
+TRACE	2020-05-21 09:09:44,962	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 09:09:45,522	560	root	[main]	Remote connection successful.
+TRACE	2020-05-21 13:11:11,893	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:11:12,440	547	root	[main]	Remote connection successful.
+ERROR	2020-05-21 13:11:12,483	590	root	[main]	UserDAOPostgres:createNewUser: failed to create new user
+TRACE	2020-05-21 13:11:12,485	592	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:11:12,692	799	root	[main]	Remote connection successful.
+TRACE	2020-05-21 13:11:12,692	799	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:11:12,885	992	root	[main]	Remote connection successful.
+ERROR	2020-05-21 13:11:12,909	1016	root	[main]	UserDAOPostgres:createNewUser: failed to create new user
+TRACE	2020-05-21 13:13:04,209	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:13:04,635	426	root	[main]	Remote connection successful.
+ERROR	2020-05-21 13:13:04,666	457	root	[main]	UserDAOPostgres:createNewUser: failed to create new user
+TRACE	2020-05-21 13:13:04,669	460	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:13:04,873	664	root	[main]	Remote connection successful.
+TRACE	2020-05-21 13:13:04,874	665	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:13:05,073	864	root	[main]	Remote connection successful.
+ERROR	2020-05-21 13:13:05,094	885	root	[main]	UserDAOPostgres:createNewUser: failed to create new user
+TRACE	2020-05-21 13:13:44,966	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:13:45,383	417	root	[main]	Remote connection successful.
+ERROR	2020-05-21 13:13:45,414	448	root	[main]	UserDAOPostgres:createNewUser: failed to create new user
+TRACE	2020-05-21 13:15:02,116	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:15:02,536	420	root	[main]	Remote connection successful.
+ERROR	2020-05-21 13:15:02,568	452	root	[main]	UserDAOPostgres:createNewUser: failed to create new user
+TRACE	2020-05-21 13:15:02,571	455	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:15:02,777	661	root	[main]	Remote connection successful.
+TRACE	2020-05-21 13:15:02,778	662	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:15:02,977	861	root	[main]	Remote connection successful.
+ERROR	2020-05-21 13:15:02,999	883	root	[main]	UserDAOPostgres:createNewUser: failed to create new user
+TRACE	2020-05-21 13:15:34,850	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:15:35,268	418	root	[main]	Remote connection successful.
+TRACE	2020-05-21 13:22:53,018	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:22:53,461	443	root	[main]	Remote connection successful.
+TRACE	2020-05-21 13:25:13,450	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:25:13,864	414	root	[main]	Remote connection successful.
+TRACE	2020-05-21 13:36:45,106	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:36:45,552	446	root	[main]	Remote connection successful.
+TRACE	2020-05-21 13:39:21,233	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:39:21,662	429	root	[main]	Remote connection successful.
+TRACE	2020-05-21 13:49:10,737	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:49:11,270	533	root	[main]	Remote connection successful.
+TRACE	2020-05-21 13:49:59,137	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 13:49:59,598	461	root	[main]	Remote connection successful.
+TRACE	2020-05-21 14:00:55,481	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 14:00:55,969	488	root	[main]	Remote connection successful.
+TRACE	2020-05-21 14:01:13,373	17892	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 14:01:13,561	18080	root	[main]	Remote connection successful.
+TRACE	2020-05-21 14:02:51,368	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 14:02:51,841	473	root	[main]	Remote connection successful.
+TRACE	2020-05-21 14:29:27,121	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 14:29:27,555	434	root	[main]	Remote connection successful.
+TRACE	2020-05-21 14:30:51,720	0	root	[main]	Getting remote connection with connection string from environment variables.
+INFO	2020-05-21 14:30:52,153	433	root	[main]	Remote connection successful.

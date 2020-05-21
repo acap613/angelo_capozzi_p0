@@ -6,7 +6,7 @@ import com.revature.hobbycon.app.MenuLogic;
 import com.revature.hobbycon.dao.UserDAO;
 import com.revature.hobbycon.dao.UserDAOPostgres;
 
-import com.revature.hobbycon.data.HobbyData;
+
 import com.revature.hobbycon.data.UserData;
 import com.revature.hobbycon.exceptions.NonLetterCharacterAdded;
 

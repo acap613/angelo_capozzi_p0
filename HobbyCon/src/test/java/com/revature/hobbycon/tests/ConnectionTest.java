@@ -12,14 +12,16 @@ import org.junit.Test;
 
 import com.revature.hobbycon.connection.JDBCConnection;
 import com.revature.hobbycon.dao.UserDAOPostgres;
+
 import com.revature.hobbycon.data.UserData;
 
 public class ConnectionTest {
 
 	UserDAOPostgres udp = new UserDAOPostgres();
 	private static UserData user; 
-	private static final String NEW_NAME = "Pepper";
-	private static final String NEW_PW = "iloveliver";
+	;
+	private static final String NEW_NAME = "Pickles";
+	private static final String NEW_PW = "iloveburgers";
 	private static final String NEW_HOBBY = "art";
 //	Scanner scan = new Scanner(System.in);
 //	String input = scan.nextLine();
@@ -29,9 +31,11 @@ public class ConnectionTest {
 	@Before
 	public void setup() {
 		user = new UserData();
+		
 		user.userName = NEW_NAME;
 		user.userPW = NEW_PW;
 		user.hobbyName = NEW_HOBBY;
+		
 		
 		
 		
@@ -44,11 +48,11 @@ public class ConnectionTest {
 		
 	}
 	@Test
-	public void getUserTest() {
-		udp.getUser(null, null);
+	public void setHobbyTest() {
+		udp.setNewHobby(user);
 		
 		
-	} 
+    } 
 	@Test
 	public void setNewUser() {
 		//user.getUserInfo();	

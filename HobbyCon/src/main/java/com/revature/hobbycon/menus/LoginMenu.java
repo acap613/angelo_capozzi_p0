@@ -30,7 +30,7 @@ public class LoginMenu extends UserData {
 		} else {
 		
 		System.out.println("================================================");
-		System.out.println("|    Welcome " + userName + " to HobbyCon      |");	
+		System.out.println("|    Welcome " + userName + " to HobbyConn      |");	
 		System.out.println("================================================\n");
 		
 		um.runUserMenu(usern);

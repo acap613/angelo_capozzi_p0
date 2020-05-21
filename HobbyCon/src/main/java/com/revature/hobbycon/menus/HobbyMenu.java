@@ -2,15 +2,16 @@ package com.revature.hobbycon.menus;
 
 import java.util.Scanner;
 
-import com.revature.hobbycon.data.HobbyData;
+
 import com.revature.hobbycon.data.UserData;
 
 public class HobbyMenu {
 	boolean exit;
 	//LoginMenu lm = new LoginMenu();
-	private static HobbyData hd = new HobbyData();
+	
 	private UserData ud;
 	private UserMenu um;
+	public String hobbyChoice;
 	public void runHobbyList(UserData ud) {
 		this.ud = ud;
 		this.um = new UserMenu();
@@ -27,42 +28,60 @@ public class HobbyMenu {
 			printHobbyList();
 			int choice = getInput();
 			hobbyList(choice);
-			System.out.println("Welcome to HobbyCon!\n");
+			System.out.println("Welcome to HobbyConn!\n");
 			//lm.login();
-			
+			this.ud.setHobbyName(hobbyChoice);
 			this.um.runUserMenu(ud);
 
 	   }
 	}
 	
-	public void hobbyList(int hob) {
+	public String hobbyList(int hob) {
+		hobbyChoice = "";
 		switch(hob) {
 		case 1:
 			System.out.println("You chose Sports!");
-			//hd.setHobbyAs();
+			//hd.setHobbyAs(Sports);
+			hobbyChoice = "Sports";
 			break;
 		case 2:
 			System.out.println("You chose Movies!");
+			//hd.setHobbyAs(Movies);
+			hobbyChoice = "Movies";
 			break;
 		case 3:
 			System.out.println("You chose Arts!");
+			//hd.setHobbyAs(Arts);
+			hobbyChoice = "Arts";
 			break;
 		case 4:
 			System.out.println("You chose Games!");
+			//hd.setHobbyAs(Games);
+			hobbyChoice = "Games";
 			break;
 		case 5:
 			System.out.println("You chose Cooking!");
+			//hd.setHobbyAs(Cooking);
+			hobbyChoice = "Cooking";
 			break;
 		case 6:
 			System.out.println("You chose Music!");
+			//hd.setHobbyAs(Music);
+			hobbyChoice = "Music";
 			break;
 		case 7:
 			System.out.println("You chose Other...");
+			//hd.setHobbyAs(Programming);
+			hobbyChoice = "Other";
 			break;
 		default:
 			System.out.println("unknown error...");
 			
+			
 		}
+		return hobbyChoice;
+		
+		
 	}
 	
 	private void printHobbyList() {
